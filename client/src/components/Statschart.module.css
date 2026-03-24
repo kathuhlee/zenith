@@ -1,0 +1,26 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.section {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+}
+
+.chartTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: var(--space-xl);
+  font-size: 15px;
+}
