@@ -4,7 +4,7 @@ A full stack productivity app for logging and analyzing deep work sessions. Trac
 
 **[→ Live Demo](https://zenith-sage-ten.vercel.app/)**  |  **[→ API](https://focus-tracker-api.railway.app)**
 
-![Zenith demo](./src/assets/demo.gif)
+![Zenith demo](./client/src/assets/demo.gif)
 
 ![Login screenshot](./client/src/assets/login.png)
 ![Log screenshot](./client/src/assets/log.png)
