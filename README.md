@@ -2,10 +2,16 @@
 
 A full stack productivity app for logging and analyzing deep work sessions. Track what you worked on, how long, and how focused you felt — then visualize your patterns over time.
 
-**[→ Live Demo](https://focus-tracker.vercel.app)**  |  **[→ API](https://focus-tracker-api.railway.app)**
+**[→ Live Demo](https://zenith-sage-ten.vercel.app/)**  |  **[→ API](https://focus-tracker-api.railway.app)**
 
-![Dashboard screenshot](./client/src/assets/dashboard.png)
-![Stats chart screenshot](./client/src/assets/stats.png)
+![Zenith demo](./src/assets/demo.gif)
+
+![Login screenshot](./client/src/assets/login.png)
+![Log screenshot](./client/src/assets/log.png)
+![History screenshot](./client/src/assets/history.png)
+![Stats screenshot](./client/src/assets/bar1.png)
+![Another Stats screenshot](./client/src/assets/bar2.png)
+![Log screenshot](./client/src/assets/log.png)
 
 ---
 
