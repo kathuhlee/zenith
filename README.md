@@ -1,4 +1,4 @@
-# Focus Tracker
+# Zenith - the focus tracker
 
 A full stack productivity app for logging and analyzing deep work sessions. Track what you worked on, how long, and how focused you felt — then visualize your patterns over time.
 
@@ -11,7 +11,6 @@ A full stack productivity app for logging and analyzing deep work sessions. Trac
 ![History screenshot](./client/src/assets/history.png)
 ![Stats screenshot](./client/src/assets/bar1.png)
 ![Another Stats screenshot](./client/src/assets/bar2.png)
-![Log screenshot](./client/src/assets/log.png)
 
 ---
 
