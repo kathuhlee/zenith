@@ -1,13 +1,8 @@
-# ============================================================
 # PRODUCT REQUIREMENTS DOCUMENT
 # Zenith — Focus & Triathlon Training Tracker
 # Version 2.0
-# ============================================================
 
-
-# ============================================================
 # 1. PRODUCT OVERVIEW
-# ============================================================
 
 Product Name: Zenith
 Tagline: Train your mind. Train your body. Track both.
@@ -24,10 +19,7 @@ for a triathlon. The app reflects the real parallel between athletic
 training and skill building — both require progressive overload,
 recovery, and tracking.
 
-
-# ============================================================
 # 2. CURRENT STATE (V1 — what's already built)
-# ============================================================
 
 BACKEND (Node/Express/PostgreSQL on Railway):
 
@@ -62,9 +54,7 @@ FRONTEND (React/Vite on Vercel):
   - localStorage     — token persistence across refreshes
 
 
-# ============================================================
 # 3. V2 FEATURE ROADMAP
-# ============================================================
 
 Priority tiers:
   P0 = must have for V2 launch
@@ -72,9 +62,7 @@ Priority tiers:
   P2 = nice to have, future iteration
 
 
-# ============================================================
 # 3A. TRIATHLON TRAINING TRACKER (P0)
-# ============================================================
 
 FEATURE: Log a training workout
 
@@ -160,9 +148,7 @@ FEATURE: Discipline-specific stats charts
   - Total training hours per week across all disciplines
 
 
-# ============================================================
 # 3B. TRAINING PLAN BUILDER (P0)
-# ============================================================
 
 FEATURE: Create a training plan
 
@@ -222,9 +208,7 @@ FEATURE: Plan vs actual comparison
   Simple visual — green if hit target, yellow if close, red if missed.
 
 
-# ============================================================
 # 3C. FOCUS SESSION UPGRADES (P1)
-# ============================================================
 
 FEATURE: Session categories
 
@@ -261,10 +245,7 @@ FEATURE: Session streak
   Show streak on dashboard header — "🔥 7 day streak"
   Motivating and adds gamification without being gimmicky.
 
-
-# ============================================================
 # 3D. DASHBOARD UPGRADES (P1)
-# ============================================================
 
 FEATURE: Unified weekly overview
 
@@ -296,9 +277,7 @@ FEATURE: Profile page
   ALTER TABLE users ADD COLUMN race_name TEXT;
 
 
-# ============================================================
 # 3E. UI/UX UPGRADES (P1)
-# ============================================================
 
 FEATURE: Triathlon-themed design system
 
@@ -329,9 +308,7 @@ FEATURE: Empty states with personality
   - No plan: "Race day is closer than you think. Build a plan."
 
 
-# ============================================================
 # 4. TECHNICAL ARCHITECTURE ADDITIONS
-# ============================================================
 
 NEW FILES NEEDED:
 
@@ -364,9 +341,7 @@ SCHEMA CHANGES TO EXISTING TABLES:
   users:    ADD COLUMN display_name, distance_unit, race_date, race_name
 
 
-# ============================================================
 # 5. BUILD ORDER
-# ============================================================
 
 Phase 1 — Database + Backend (do this first, test with Postman)
   1. Add workouts table to setup.sql
