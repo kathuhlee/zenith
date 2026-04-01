@@ -57,9 +57,9 @@ FRONTEND (React/Vite on Vercel):
 # 3. V2 FEATURE ROADMAP
 
 Priority tiers:
-  P0 = must have for V2 launch
-  P1 = high value, build after P0
-  P2 = nice to have, future iteration
+-  P0 = must have for V2 launch
+-  P1 = high value, build after P0
+-  P2 = nice to have, future iteration
 
 
 # 3A. TRIATHLON TRAINING TRACKER (P0)
